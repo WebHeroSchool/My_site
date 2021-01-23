@@ -1,11 +1,11 @@
-div
+.logo
 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 24px;
 }
-h1
+.main__title
 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -13,7 +13,15 @@ h1
   font-size: 50px;
 }
 
-a
+.main__title-text_highlight
+{
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+}
+
+.menu__item
 {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -21,7 +29,7 @@ a
   font-size: 14px;
 }
 
-p
+.main__subtitle
 {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -29,7 +37,7 @@ p
   font-size: 18px;
 }
 
-button
+.main__button
 {
 font-family: "Roboto", sans-serif;
 font-weight: 500;
