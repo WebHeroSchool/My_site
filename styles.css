@@ -1,0 +1,100 @@
+body
+{
+margin: auto;
+}
+
+.wrapper
+{
+margin: auto;
+width: 80%;
+border: dashed 1px blue;
+}
+
+.header
+{
+  display:flex;
+  justify-content: space-between;
+  border: dashed 1px blue;
+}
+
+.main
+{
+  border: dashed 1px blue;
+}
+
+.logo
+{
+  border: dashed 1px blue;
+  padding: 40px 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+}
+
+.menu{
+  border: dashed 1px blue;
+  display: flex;
+  align-items: center;
+}
+
+.menu__item
+{
+  border: dashed 1px blue;
+  padding: 0 13px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.menu__item:last-child
+{
+  padding-right: 0;
+}
+
+.main__title
+{
+  border: dashed 1px blue;
+  margin-right: auto;
+  width: 30%;
+  padding: 246px 0 0 0;
+  display: flex;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+}
+
+.main__title-text_highlight
+{
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+}
+
+.main__subtitle
+{
+  border: dashed 1px blue;
+  margin-right: auto;
+  width: 24%;
+  padding: 40px 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.main__button
+{
+  border: dashed 1px blue;
+  margin-right: auto;
+  width: 13%;
+  padding: 18px 1px 10px 21px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+}
