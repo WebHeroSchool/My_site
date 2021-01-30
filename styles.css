@@ -24,9 +24,36 @@ border: dashed 1px blue;
 
 .logo
 {
-  border: dashed 1px blue;
+  position: relative;
   padding: 40px 0;
+  padding-left: 44px;
   font: bold 24px/32px "pt_serif", arial, helvetica, sans-serif;
+  border: dashed 1px blue;
+}
+
+.logo__circle
+{
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  opacity: .7;
+  border: dashed 1px blue;
+}
+
+.logo__circle_color_dark-blue
+{
+  background: #0056EC;
+}
+
+.logo__circle_color_blue
+{
+  left: 8px;
+  top: 56%;
+  background: #C8DBFB;
 }
 
 .menu{
