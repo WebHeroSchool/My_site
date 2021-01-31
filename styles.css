@@ -1,11 +1,134 @@
-div
+body
 {
+margin: auto;
+}
+
+.wrapper
+{
+margin: auto;
+width: 80%;
+border: dashed 1px blue;
+}
+
+.header
+{
+  display:flex;
+  justify-content: space-between;
+  border: dashed 1px blue;
+}
+
+.main
+{
+  border: dashed 1px blue;
+}
+
+.logo
+{
+  position: relative;
+  padding: 40px 0;
+  padding-left: 44px;
+  font: bold 24px/32px "pt_serif", arial, helvetica, sans-serif;
+  border: dashed 1px blue;
+}
+
+.logo__circle
+{
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  opacity: .7;
+  border: dashed 1px blue;
+}
+
+.logo__circle_color_dark-blue
+{
+  background: #0056EC;
+}
+
+.logo__circle_color_blue
+{
+  left: 8px;
+  top: 56%;
+  background: #C8DBFB;
+}
+
+.menu{
+  border: dashed 1px blue;
+  display: flex;
+  align-items: center;
+}
+
+.menu__item
+{
+  position: relative;
+  margin-right: 26px;
+  font: 500 18px/21px "Roboto", arial, helvetica, sans-serif;
+  color: #000;
+  text-decoration: none;
+  transition: opacity .5s;
+  border: dashed 1px blue;
+}
+
+.menu__item::after
+{
+  position: absolute;
+  left: 0;
+  display: block;
+  content: "";
+  width: 0;
+  height: 3px;
+  background: #0056EC;
+  opacity: 0;
+  transition: opacity .5s, width .5s;
+}
+
+.menu__item:last-child
+{
+  padding-right: 0;
+}
+
+.menu__item:hover
+{
+  opacity: .5;
+}
+
+.menu__item:hover:after, .menu__item_active::after
+{
+  opacity: 1;
+}
+
+.menu__item_active::after
+{
+  position: absolute;
+  display: block;
+  content: "";
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: #0056EC;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.main__title
+{
+  border: dashed 1px blue;
+  margin-right: auto;
+  width: 30%;
+  padding: 246px 0 0 0;
+  display: flex;
+  align-items: center;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 24px;
+  font-size: 50px;
 }
-h1
+
+.main__title-text_highlight
 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -13,26 +136,26 @@ h1
   font-size: 50px;
 }
 
-a
+.main__subtitle
 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 14px;
-}
-
-p
-{
+  border: dashed 1px blue;
+  margin-right: auto;
+  width: 24%;
+  padding: 40px 0;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 18px;
 }
 
-button
+.main__button
 {
-font-family: "Roboto", sans-serif;
-font-weight: 500;
-font-style: normal;
-font-size: 14px;
+  border: dashed 1px blue;
+  margin-right: auto;
+  width: 13%;
+  padding: 18px 1px 10px 21px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
 }
